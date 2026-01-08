@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    height: 60px;
+    background-color: #1f2933; /* dark color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Contact link */
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
